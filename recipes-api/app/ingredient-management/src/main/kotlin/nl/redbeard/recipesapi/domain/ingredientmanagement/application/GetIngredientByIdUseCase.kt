@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service
 class GetIngredientByIdUseCase(
     private val getIngredientById: GetIngredientById
 ): GetIngredientByIdACL {
-
     override fun execute(id: String): Result<IngredientDTO> = runCatching {
         getIngredientById.execute(id).map { it.toDTO() }.getOrThrow()
     }

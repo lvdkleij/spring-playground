@@ -1,0 +1,15 @@
+mutation saveIngredientMutation($ingredient: IngredientInput!) {
+    saveIngredient(ingredient: $ingredient) {
+        __typename
+        id
+        name
+        nutrition {
+            proteins
+            fiber
+            kcal
+            fat {
+                saturated
+            }
+        }
+    }
+}

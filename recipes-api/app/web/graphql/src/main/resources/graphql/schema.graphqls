@@ -8,7 +8,22 @@ type Mutation {
 
 input IngredientInput {
     name: String
+    nutrition: NutritionInput
 }
+
+input NutritionInput {
+    fat: FatInput
+    kcal: Float
+    proteins: Float
+    fiber: Float
+}
+
+input FatInput {
+    saturated: Float
+    monoUnsaturated: Float
+    polyUnsaturated: Float
+}
+
 
 type Recipe {
     name: String!
@@ -16,5 +31,20 @@ type Recipe {
 }
 
 type Ingredient {
+    id: ID,
     name: String
+    nutrition: Nutrition
+}
+
+type Nutrition {
+    fat: Fat
+    kcal: Float
+    proteins: Float
+    fiber: Float
+}
+
+type Fat {
+    saturated: Float
+    monoUnsaturated: Float
+    polyUnsaturated: Float
 }
