@@ -1,10 +1,8 @@
 package nl.redbeard.recipesapi
 
 import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
-class RecipesApiApplicationTests {
+class RecipesApiApplicationIT: BaseIT() {
 
     @Test
     fun contextLoads() {
