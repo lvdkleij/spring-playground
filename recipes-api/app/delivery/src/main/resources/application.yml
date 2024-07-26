@@ -1,3 +1,6 @@
 spring:
   application:
     name: recipes-api
+  docker:
+    compose:
+      file: recipes-api/app/delivery/docker-compose.yml

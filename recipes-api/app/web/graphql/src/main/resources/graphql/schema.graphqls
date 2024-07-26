@@ -1,0 +1,13 @@
+type Query {
+    getRecipeByName(name: String!): Recipe!
+}
+
+
+type Recipe {
+    name: String!
+    ingredients: [Ingredient!]!
+}
+
+type Ingredient {
+    name: String
+}

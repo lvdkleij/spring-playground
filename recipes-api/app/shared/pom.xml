@@ -3,16 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>nl.redbeard</groupId>
-        <artifactId>recipes-api</artifactId>
+        <artifactId>app</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <packaging>pom</packaging>
-    <artifactId>app</artifactId>
-    <modules>
-        <module>delivery</module>
-        <module>shared</module>
-        <module>recipe-management</module>
-        <module>ingredient-management</module>
-        <module>web/graphql</module>
-    </modules>
+    <artifactId>shared</artifactId>
+    <build>
+        <sourceDirectory>src/main/kotlin</sourceDirectory>
+        <testSourceDirectory>src/test/kotlin</testSourceDirectory>
+    </build>
 </project>
