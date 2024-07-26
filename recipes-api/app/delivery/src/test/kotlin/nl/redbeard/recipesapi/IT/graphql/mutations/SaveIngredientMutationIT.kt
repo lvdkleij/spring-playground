@@ -1,6 +1,7 @@
-package nl.redbeard.recipesapi.IT.graphql
+package nl.redbeard.recipesapi.IT.graphql.mutations
 
 import kotlinx.coroutines.test.runTest
+import nl.redbeard.recipesapi.IT.graphql.BaseGraphQLIT
 import nl.redbeard.recipesapi.domain.shared.dto.CarbohydratesDTO
 import nl.redbeard.recipesapi.domain.shared.dto.FatDTO
 import nl.redbeard.recipesapi.domain.shared.dto.IngredientInputDTO
