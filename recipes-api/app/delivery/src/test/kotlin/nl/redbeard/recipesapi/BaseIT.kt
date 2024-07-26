@@ -7,6 +7,6 @@ import org.springframework.context.annotation.Import
     webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
     classes = [RecipesApiApplication::class])
 @Import(
-    TestContainersConfig::class
+    MongoDBTestContainerConfig::class
 )
 abstract class BaseIT

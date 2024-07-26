@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration
 import org.testcontainers.containers.MongoDBContainer
 
 @Configuration
-class TestContainersConfig {
+class MongoDBTestContainerConfig {
 
     companion object {
         @JvmStatic

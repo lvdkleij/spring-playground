@@ -8,7 +8,7 @@ object LocalRecipesApiApplication {
     @JvmStatic
     fun main(args: Array<String>) {
         SpringApplication.from(::appMain).with(
-            TestContainersConfig::class.java
+            MongoDBTestContainerConfig::class.java
         ).run(*args)
     }
 }
