@@ -11,7 +11,7 @@ data class Ingredient(
     @Id
     val id: ObjectId? = null,
     val name: String,
-    val nutrition: Nutrition?
+    val nutrition: Nutrition? = null
 )
 
 fun Ingredient.toDTO() = IngredientDTO(

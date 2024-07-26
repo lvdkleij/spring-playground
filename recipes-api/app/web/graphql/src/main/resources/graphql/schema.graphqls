@@ -15,6 +15,12 @@ input NutritionInput {
     fat: FatInput
     kcal: Float
     proteins: Float
+    carbohydrates: CarbohydratesInput
+}
+
+
+input CarbohydratesInput {
+    sugar: Float
     fiber: Float
 }
 
@@ -40,6 +46,11 @@ type Nutrition {
     fat: Fat
     kcal: Float
     proteins: Float
+    carbohydrates: Carbohydrates
+}
+
+type Carbohydrates {
+    sugar: Float
     fiber: Float
 }
 

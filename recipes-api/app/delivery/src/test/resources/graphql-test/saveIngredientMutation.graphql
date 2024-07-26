@@ -5,8 +5,11 @@ mutation saveIngredientMutation($ingredient: IngredientInput!) {
         name
         nutrition {
             proteins
-            fiber
             kcal
+            carbohydrates {
+                sugar
+                fiber
+            }
             fat {
                 saturated
             }
