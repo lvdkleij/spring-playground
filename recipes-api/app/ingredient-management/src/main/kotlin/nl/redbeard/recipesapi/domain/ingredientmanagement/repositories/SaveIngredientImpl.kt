@@ -11,5 +11,4 @@ class SaveIngredientImpl(
     override fun execute(ingredient: Ingredient): Result<Ingredient> = runCatching {
        repository.save(ingredient)
     }
-
 }

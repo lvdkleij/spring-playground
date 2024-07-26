@@ -2,6 +2,13 @@ type Query {
     getRecipeByName(name: String!): Recipe!
 }
 
+type Mutation {
+    saveIngredient(ingredient: IngredientInput!): Ingredient!
+}
+
+input IngredientInput {
+    name: String
+}
 
 type Recipe {
     name: String!

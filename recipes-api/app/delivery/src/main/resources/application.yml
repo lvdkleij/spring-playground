@@ -1,3 +1,10 @@
 spring:
   application:
     name: recipes-api
+
+  graphql:
+    graphiql:
+      enabled: true
+  data:
+    mongodb:
+      database: recipes
