@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/recipes-api/app/delivery/src/main/kotlin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/ingredient-management/src/main/kotlin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/recipe-management/src/main/kotlin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/shared/src/main/kotlin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/app/web/graphql/src/main/kotlin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recipes-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/delivery/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/ingredient-management/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/recipe-management/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/shared/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/app/web/graphql/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flowhive/src/main/resources" charset="UTF-8" />
   </component>
 </project>

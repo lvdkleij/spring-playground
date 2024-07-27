@@ -6,28 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ingredient-management" />
-        <module name="shared" />
         <module name="delivery" />
-        <module name="recipe-management" />
-        <module name="graphql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="graphql" target="21" />
+      <module name="ingredient-management" target="21" />
       <module name="ingredients" target="21" />
       <module name="intgredient-management" target="21" />
+      <module name="recipe-management" target="21" />
+      <module name="shared" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app" options="" />
       <module name="delivery" options="-parameters" />
+      <module name="flowhive" options="" />
       <module name="graphql" options="-parameters" />
       <module name="ingredient-management" options="-parameters" />
       <module name="ingredients" options="-parameters" />
       <module name="intgredient-management" options="-parameters" />
       <module name="recipe-management" options="-parameters" />
-      <module name="recipes-api" options="" />
       <module name="shared" options="-parameters" />
     </option>
   </component>

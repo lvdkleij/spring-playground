@@ -4,6 +4,7 @@
     <option name="bindingSuggestionsEnabled" value="false" />
     <option name="moduleMapping">
       <map>
+        <entry key="flowhive" value="recipes-api" />
         <entry key="intgredient-management" value="intgredients" />
         <entry key="recipe-management" value="recipes" />
       </map>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/recipes-api/app/domains/ingredient-management/ingredients.iml" filepath="$PROJECT_DIR$/recipes-api/app/domains/ingredient-management/ingredients.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-playground.iml" filepath="$PROJECT_DIR$/.idea/spring-playground.iml" />
     </modules>
   </component>
